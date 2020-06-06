@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript本格入門</title>
+</head>
+<body>
+    <form action="" id="fm">
+        <input type="submit" value="送信" />
+    </form>
+    <form action="" id="timer">
+        <input id="btn" type="button" value="タイマー停止" />
+        <div id="result"></div>
+    </form>
+    <!-- 7.04 href -->
+    <form action="">
+        <label for="isbn">書籍：</label>
+        <select name="isbn" id="isbn">
+            <option value="">----書籍名を選択してください----</option>
+            <option value="978-4-7741-8030-4">Javaポケットリファレンス</option>
+            <option value="978-4-7741-7984-1">Swiftポケットリファレンス</option>
+            <option value="978-4-7981-7984-2">独習PHP 第3版</option>
+            <option value="978-4-7981-4402-3">独習ASP.NET 第5版</option>
+            <option value="978-4-8222-9644-5">アプリを作ろう</option>
+        </select>
+    </form>
+    <!-- 7.05 history -->
+    <a href="Javascript:history.back()">戻る</a>|
+    <a href="Javascript:history.forward()">進む</a>
+    <!-- 7.06 history_push -->
+    <input type="button" id="btn_history" value="カウントアップ" />
+    <span id="result_history">-</span>回クリックされました
+    <div id="main">
+        <p>WINGSプロジェクト</p>
+        <img src="http:www.wings.msn.to/image/wings.jpg" />
+    </div>
+    <script type="text/javascript" src="scripts/confirm.js"></script>
+    <noscript>Javascriptが使用できません</noscript>
+</body>
+</html>

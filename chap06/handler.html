@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript本格入門</title>
+</head>
+<body>
+    <form action="">
+        <input type="button" id="btn_handler" value="ダイアログ表示">
+    </form>
+    <form action="">
+        <input type="button" id="btn_listener" value="ダイアログ表示">
+    </form>
+    <form action="">
+        <input type="button" id="btn_event" value="クリック" />
+    </form>
+    <div id="main" style="position:absolute; margin: 50px;
+     top: 50px; left:50px; width: 200px; height: 200px; border:1px solid Black">
+    </div>
+    <form action="">
+        <label for="key">キー入力: </label>
+        <input type="text" id="key" size="10"/>
+    </form>
+    <form action="">
+        <input type="button" id="btn" value="this"/>
+    </form>
+    <!-- propagation -->
+    <div id="outer">
+        <p>outer要素</p>
+        <a id="inner" href="http://www.wings.msn.to">inner要素</a>
+    </div>
+    <script type="text/javascript" src="scripts/handler.js"></script>
+    <noscript>Javascriptが使用できません</noscript>
+</body>
+</html>

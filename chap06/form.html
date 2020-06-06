@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript本格入門</title>
+</head>
+<body>
+    <form action="">
+        <label for="name">名前: </label>
+        <input id="name" name="name" type="text" size="30"/>
+        <input id="btn" type="button" value="送信"/>
+    </form>
+    <div id="result"></div>
+
+    <form action="">
+        <label for="">
+            <input type="checkbox" name="food" value="ラーメン">ラーメン
+        </label>
+        <label for="">
+            <input type="checkbox" name="food" value="餃子">餃子
+        </label>
+        <label for="">
+            <input type="checkbox" name="food" value="焼き肉">焼き肉
+        </label>
+        <input id="btn_checkbox" type="button" value="送信" >
+    </form>
+
+    <form action="">
+        <div>
+            好きな食べ物は？: 
+            <label><input type="radio" name="food1" value="ラーメン">ラーメン</label>
+            <label><input type="radio" name="food1" value="餃子" />餃子</label>
+            <label><input type="radio" name="food1" value="焼き肉" />焼き肉</label>
+            <input id="btn_radio" type="button" value="送信"/>
+        </div>
+    </form>
+
+    <form action="">
+        <div>
+            <label for="food">好きな食べ物は？: </label>
+            <select name="" id="food_option" multiple>
+                <option value="ラーメン">ラーメン</option>
+                <option value="餃子">餃子</option>
+                <option value="焼き肉">焼き肉</option>
+            </select>
+            <input id="btn_option" type="button" value="送信">
+        </div>
+    </form>
+
+    <form action="">
+        <label for="file">ファイル: </label>
+        <input id="file" type="file" name="file" multiple />
+    </form>
+
+    <form action="">
+        <label for="file">ファイル: </label>
+        <input id="file_pre" type="file" />
+    </form>
+    <hr />
+
+    <form action="">
+        <label for="file">ファイル</label>
+        <input type="file" id="file_img" name="file_img" />
+    </form>
+    <hr />
+    <img id="result_img" />
+
+    <script type="text/javascript" src="scripts/form.js"></script>
+    <noscript>Javascriptが使用できません</noscript>
+</body>
+</html>

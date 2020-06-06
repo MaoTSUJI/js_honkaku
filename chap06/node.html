@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript本格入門</title>
+</head>
+<body>
+    <!-- 6.29 append_child -->
+    <form action="">
+        <div>
+            <label for="name">サイト名: </label><br />
+            <input type="text" id="name" name="name" size="30" />
+        </div>
+        <div>
+            <label for="url">URL: </label><br />
+            <input type="url" id=url name="url" size="50" />
+        </div>
+        <div>
+            <input type="button" id="btn" value="追加">
+        </div>
+    </form>
+    <div id="list"></div>
+    <br>
+    <br>
+    <!-- 6.30 append_complex -->
+    <ul id="list_complex"></ul>
+
+    <!-- 6.32 replace.html -->
+    <ul id="list_replace">
+        <li><a href="JavaScript:void(0)" data-isbn="978-4-7981-3547-2">
+          独習PHP 第3版</a></li>
+        <li><a href="JavaScript:void(0)" data-isbn="978-4-7741-8030-4">
+          Javaポケットリファレンス</a></li>
+        <li><a href="JavaScript:void(0)" data-isbn="978-4-7741-7984-1">
+          Swiftポケットリファレンス</a></li>
+        <li><a href="JavaScript:void(0)" data-isbn="978-4-7981-4402-3">
+          独習ASP.NET 第5版</a></li>
+        <li><a href="JavaScript:void(0)" data-isbn="978-4-8222-9644-5">
+          アプリを作ろう! Android入門</a></li>
+      </ul>
+      <input id="del" type="button" value="削除" disabled />
+      <div id="pic"></div>
+
+    <!-- 6.33 live.html -->
+    <ul id="first">
+        <li>独習PHP 第3版</li>
+        <li>Javaポケットリファレンス</li>
+        <li>Swiftポケットリファレンス</li>
+        <li>独習ASP.NET 第5版</li>
+        <li>アプリを作ろう! Android入門</li>
+    </ul>
+
+    <ul id="second"></ul>
+    <script type="text/javascript" src="scripts/node.js"></script>
+    <noscript>Javascriptが使用できません</noscript>
+</body>
+</html>
